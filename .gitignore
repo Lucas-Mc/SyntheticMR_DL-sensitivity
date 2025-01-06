@@ -1,0 +1,20 @@
+# Virtual environments
+/env
+
+# Full de-anonymized analysis
+analysis_full.ipynb
+
+# Input data ... see FigShare: https://doi.org/10.6084/m9.figshare.28139837
+/data/*/*
+!/data/*/.gitkeep
+
+# Saved model output
+/checkpoints/*
+!/checkpoints/.gitkeep
+
+# Output figures
+/figures/*
+!/figures/.gitkeep
+
+# Manuscript writing
+/writing
